@@ -1,6 +1,7 @@
 User-agent: robot
 Disallow: /index.html
 Disallow: /pets
+Disallow: /dogs
 
 User-agent: spotibot
 Disallow: /neexistujucy_subor.html
