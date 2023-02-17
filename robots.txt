@@ -1,2 +1,5 @@
-User-agent: spotibot
+User-agent: robot
 Disallow: /index.html
+
+User-agent: spotibo
+Disallow: /neexistujucy_subor.html
