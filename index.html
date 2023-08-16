@@ -5,6 +5,18 @@
     <meta name="description" content="Website for testing purposes - change"/>
     <title>This is test website for Spotibo crawler - maybe?</title>
     <link rel="alternate" href="https://ukul3l3.github.io/test.spotibo.github.io/" hreflang="en-US" />
+    <script>
+        (function () {
+            var className = document.documentElement.className;
+            className = className.replace('no-js', 'js');
+
+            if (window.name.indexOf('fontsLoaded=true') > -1) {
+                className += ' fonts-loaded';
+            }
+
+            document.documentElement.className = className;
+        }());
+    </script>
 </head>
 <body>
     <h1>This is heading number one</h1>
